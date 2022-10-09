@@ -1,25 +1,39 @@
+*{width: 100%;}
+
+
 .header{
 background: red;
 color: white;
+
+
 }
 
 .web{   
-    margin: 15px 10px 18px 20px;
+    margin-top: 15px;  
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 0;
+    
     }
 
-.caja{margin: 15px 260px 18px 10px;
-
+.caja{margin-top: 7px;
+        margin-left: 0;
+        width: 60%;
+        
 }
+
 
 a{text-decoration: none;
 color: white;
 font-size: 14px;
+
 }
 
 .navegador{ 
     display: flex;
-    height: 50px;
-}   
+    flex-direction: row;
+    justify-content: left;
+} 
 
 .navbar{
     display: flex;
@@ -43,10 +57,8 @@ font-size: 14px;
    }
 
 .li1{border-radius: 150px;
-    width: 45px;
     padding: 10px;
     text-align: center;
-    height: fit-content;
     margin-right: 10px;
     
     
@@ -54,16 +66,41 @@ font-size: 14px;
 
 .li2{ 
     border-radius: 150px;
-    width: 45px;
     padding: 10px;
     text-align: center;
-    height: fit-content;
     margin-right: 10px;
 }
 .li3{
     border-radius: 130px;
-    width: 65px;
     padding: 10px;
     text-align: center;
-    height: fit-content;
+    
 }
+
+.div1{ 
+        text-align: center;
+        background: black;
+        color: white;
+        
+      
+             
+ }
+ .div2{ 
+    text-align: center;
+    background: red;
+    color: white;
+ }
+
+ 
+ .caja2{margin-top: 80px;
+        display: flex;
+
+ }
+
+ .boton{
+
+
+ }
+ .footer{ 
+    background: black;
+ }
