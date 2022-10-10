@@ -1,106 +1,78 @@
-*{width: 100%;}
+*{margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
 
+a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
 
 .header{
-background: red;
-color: white;
-
-
-}
-
-.web{   
-    margin-top: 15px;  
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 0;
+    background: red;
+    color: white);
     
-    }
-
-.caja{margin-top: 7px;
-        margin-left: 0;
-        width: 60%;
-        
 }
-
-
-a{text-decoration: none;
-color: white;
-font-size: 14px;
-
-}
-
-.navegador{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-} 
 
 .navbar{
+    color: white;
     display: flex;
-    flex-direction: row;
-    
+}
+.web{ margin: 8px 12px 8px 12px;}
+
+.caja{ height: 18px;
+       margin: 10px 350px 8px 12px; 
+}
+ul{display: flex}
+
+.li1{ border-radius: 20px ;
+    list-style-type: none; 
+    padding: 5px;
+    background-color: rgb(212, 162, 171);
+    width: 45px; 
+    margin: 8px 5px 8px ;
     
 }
-.navbar ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    margin-top: 6px;
-    margin-bottom: 3px;
-       
-   }
 
-.navbar ul li{
-                background: rgb(223, 130, 130);
-                
-                
-   }
+.li2{ border-radius: 20px ;
+    list-style-type: none; 
+    padding: 5px;
+    background-color: rgb(212, 162, 171);
+    width: 45px; 
+    margin: 8px 5px 8px
+}
 
-.li1{border-radius: 150px;
-    padding: 10px;
+.li3{  border-radius: 20px ;
+    list-style-type: none; 
+    padding: 5px;
+    background-color: rgb(212, 162, 171);
+    width: 65px; 
+    margin: 8px 5px 8px
+}
+.div1{
     text-align: center;
-    margin-right: 10px;
-    
-    
+    background-color: black;
+    color: white;
+
+}
+.div2{text-align: center;
+    background-color:red;
+    color: white;
 }
 
-.li2{ 
-    border-radius: 150px;
-    padding: 10px;
-    text-align: center;
-    margin-right: 10px;
-}
-.li3{
-    border-radius: 130px;
-    padding: 10px;
-    text-align: center;
-    
-}
-
-.div1{ 
+.div3{
         text-align: center;
         background: black;
-        color: white;
-        
-      
-             
- }
- .div2{ 
+}
+
+.div4{
+    color: black;
     text-align: center;
-    background: red;
-    color: white;
- }
-
- 
- .caja2{margin-top: 80px;
-        display: flex;
-
- }
-
- .boton{
-
-
- }
- .footer{ 
     background: black;
- }
+    margin-left: 400px;
+}
+.ul1{display: flex;
+    flex-direction: row;
+    justify-content: center}
