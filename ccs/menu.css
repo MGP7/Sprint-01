@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/background.jpg);
+   
+}
+.div1{
+    border-style: solid;
+    border-radius: 30px;
+    border-color: black;
+    align-content: center;
+    margin: 0px 400px 0px 550px;
+    background: rgb(184, 87, 184);
+    color: white;
+    width: 215px;
+    
+}  
+a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    
+}
+
+.li1{
+    list-style-type: none; 
+    margin-left: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+h4{margin-top: 5px;}
+
+.video{ 
+    width: 195px;
+    height: 345px ;
+    border-color: white;
+    border-style: ridge;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-width: 5px;
+
+    }
+
+.div2{
+    text-align: center;
+    background: fuchsia;
+    width: 100%;
+    margin-top: 0;
+    
+}
+.titulo1{
+        color: white;
+
+}
